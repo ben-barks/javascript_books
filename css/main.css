@@ -1,0 +1,42 @@
+body {
+  font-family: Palatino;
+  background-color: #F0F2F2;
+}
+
+#reading-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#new-item-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#save {
+  width: 20%;
+}
+
+.delete-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+input, select {
+  margin-top: 10px;
+}
